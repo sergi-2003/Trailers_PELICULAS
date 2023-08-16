@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Diseños-trailer.css">
+    <title>PELI PRODUCTIONS</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="/images/LOGO.png" alt="">
+
+        <h2>PELI PRODUCTIONS</h2>
+        <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">PELICULAS</a></li>
+            <li><a href="#">SERIES</a></li>
+
+        </ul>
+    </header>
+    <nav>
+        <div class="menu-container">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" data-filter="accion">Acción</a></li>
+                    <li><a href="#" data-filter="comedia">Comedia</a></li>
+                    <li><a href="#" data-filter="drama">Drama</a></li>
+                    <li><a href="#" data-filter="ciencia-ficcion">Ciencia Ficción</a></li>
+                    <li><a href="#" data-filter="terror">Terror</a></li>
+                    <li><a href="#" data-filter="animacion">Animación</a></li>
+                    <li><a href="#" data-filter="series">Series</a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar Pelicula">
+        <button id="search-button">Buscar</button>
+        <h1>BIENVENIDOS</h1>
+    </div>
+
+
+    <div class="movies">
+
+        <div class="posters accion">
+            <div class="carta">
+                <h2>Cisne Negro</h2>
+                <img class="pelicula" src="images/cisne negro.jpg" alt="">
+                <p>Una bailarina empieza a perder el frágil sentido de la realidad cuando una compañera recién llegada
+                    amenaza con usurpar su posición en el papel principal de "El lago de los cisnes".</p>
+                <button class="open-modal-button" data-movie="CisneNegro" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modalCisneNegro">
+            <div class="modal-content">
+                <h2>Cisne Negro</h2>
+                <img class="modal1" src="images/cisne negro.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uPnB_Bjh5fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Una bailarina empieza a perder el frágil sentido de la realidad cuando una compañera recién llegada
+                    amenaza con usurpar su posición en el papel principal de "El lago de los cisnes".</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+
+
+          <div class="movies">
+            <div class="posters accion">
+              <div class="carta">
+                <h2>Transformers El despertar de las bestias</h2>
+                <img class="pelicula" src="images/el despertar de las bestias.jpg" alt="">
+                <p>Durante la década de 1990, los Maximals, Predacons y Terrorcons se unen a la batalla existente en la Tierra entre Autobots y Decepticons.</p>
+                <button class="open-modal-button" data-movie="Transformers">Ver Mas</button>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Modal para Transformers -->
+          <div class="modal" id="modalTransformers">
+            <div class="modal-content">
+              <h2>Transformers El despertar de las bestias</h2>
+              <img class="modal1" src="images/el despertar de las bestias.jpg" alt="">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YTztjeJm8qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p>Durante la década de 1990, los Maximals, Predacons y Terrorcons se unen a la batalla existente en la Tierra entre Autobots y Decepticons.</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        <div class="posters comedia">
+            <div class="carta">
+                <h2>Hijos de Perra</h2>
+                <img class="pelicula" src="images/hijos de perra.jpg" alt="">
+                <p>Hijos de Perra es una anunciada cinta de comedia y aventura, dirigida por Josh Greenbaum y producida
+                    por Phil Lord y Christopher Miller, cuya trama sigue a Reggie, un Border Terrier ingenuo </p>
+                <button class="open-modal-button" data-movie=" hijosdeperra" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modalhijosdeperra">
+            <div class="modal-content">
+                <h2>Hijos de Perra</h2>
+                <img class="modal2" src="images/hijos de perra.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R4nutGtSVUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Hijos de Perra es una anunciada cinta de comedia y aventura, dirigida por Josh Greenbaum y producida
+                    por Phil Lord y Christopher Miller, cuya trama sigue a Reggie, un Border Terrier ingenuo </p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        
+        <div class="posters animacion">
+            <div class="carta">
+                <h2>SONIC 2</h2>
+                <img class="pelicula" src="/images/sonic 2.jpg" alt="">
+                <p>Sonic y su compañero Tails emprenden un viaje alrededor del mundo en busca de una esmeralda que tiene
+                    del poder de destruir civilizaciones.</p>
+                <button class="open-modal-button" data-movie=" sonic" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modalsonic">
+            <div class="modal-content">
+                <h2>SONIC 2</h2>
+                <img class="pelicula" src="/images/sonic 2.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XPqAai3WBag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Sonic y su compañero Tails emprenden un viaje alrededor del mundo en busca de una esmeralda que tiene
+                    del poder de destruir civilizaciones.</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        <div class="posters animacion">
+            <div class="carta">
+                <h2>DUMBO</h2>
+                <img class="pelicula" src="/images/dumbo.jpg" alt="">
+                <p>El bebé elefante de un circo tiene orejas grandes, es ridiculizado y luego aprende a volar.</p>
+                <button class="open-modal-button" data-movie=" dumbo" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modaldumbo">
+            <div class="modal-content">
+                <h2>DUMBO</h2>
+                <img class="pelicula" src="/images/dumbo.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wVpR21M6lqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>El bebé elefante de un circo tiene orejas grandes, es ridiculizado y luego aprende a volar.</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        <div class="posters terror">
+            <div class="carta">
+                <h2>La Llorona</h2>
+                <img class="pelicula" src="/images/la llorona.jpg" alt="">
+                <p>La Llorona es un fantasma del folclore hispanoamericano originario del Mundo Prehispánico que, según
+                    la tradición oral, es el alma en pena de una mujer que ahogó a sus hijos, que luego, arrepentida</p>
+                <button class="open-modal-button" data-movie=" llorona" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modalllorona">
+            <div class="modal-content">
+                <h2>La Llorona</h2>
+                <img class="pelicula" src="/images/la llorona.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cW39B5rAFnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>La Llorona es un fantasma del folclore hispanoamericano originario del Mundo Prehispánico que, según
+                    la tradición oral, es el alma en pena de una mujer que ahogó a sus hijos, que luego, arrepentida</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        <div class="posters accion">
+            <div class="carta">
+                <h2>Batman El Caballero de la Noche</h2>
+                <img class="pelicula" src="/images/dark knigth.jpg" alt="">
+                <p>Batman tiene que mantener el equilibrio entre el heroísmo y el vigilantismo para pelear contra un vil
+                    criminal conocido como el Guasón, que pretende sumir Ciudad Gótica en la anarquía.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters ciencia-ficcion">
+            <div class="carta">
+                <h2>Avatar 2</h2>
+                <img class="pelicula" src="/images/avatar.jpg" alt="">
+                <p>Jake Sully y Ney'tiri han formado una familia y hacen todo lo posible por permanecer juntos. Sin
+                    embargo, deben abandonar su hogar y explorar las regiones de Pandora cuando una antigua amenaza
+                    reaparece..</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters aventura ">
+            <div class="carta">
+                <h2>Desencantadas</h2>
+                <img class="pelicula" src="/images/desencantada.jpg" alt="">
+                <p>Giselle cuestiona su felicidad y, sin darse cuenta, altera el equilibrio de todos en Andalasia y el
+                    mundo real..</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters terror ">
+            <div class="carta">
+                <h2>El Hombre Invisible</h2>
+                <img class="pelicula" src="/images/el hombre invisible.jpg" alt="">
+                <p>Un científico loco finge su suicidio y luego utiliza su invisibilidad para aterrorizar a su expareja,
+                    quien decide enfrentar al hombre invisible ella misma luego de que la policía no creyera su
+                    historia.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters comedia ">
+            <div class="carta">
+                <h2>Barbie</h2>
+                <img class="pelicula" src="/images/barbie.jpg" alt="">
+                <p>Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie parte hacia
+                    el mundo humano para encontrar la verdadera felicidad.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters accion ">
+            <div class="carta">
+                <h2>Tren Bala</h2>
+                <img class="pelicula" src="/images/tren bala.jpg" alt="">
+                <p>En un tren de alta velocidad que se dirige de Tokio a Morioka, cinco asesinos profesionales descubren
+                    que van tras el mismo objetivo.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters terror ">
+            <div class="carta">
+                <h2>El Exorcismo</h2>
+                <img class="pelicula" src="/images/exorcist believer.jpg" alt="">
+                <p>Believer es una próxima película de terror sobrenatural estadounidense dirigida por David Gordon
+                    Green, con un guion que coescribió con Peter Sattler, a partir de una historia que coescribió con
+                    Sattler, Scott Teems y Danny McBride.​​​</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters drama ">
+            <div class="carta">
+                <h2>Erase Una Vez En Hollywood</h2>
+                <img class="pelicula" src="/images/hollywood.jpg" alt="">
+                <p>A finales de los 60, Hollywood empieza a cambiar y el actor Rick Dalton trata de adaptarse a los
+                    nuevos tiempos. Junto a su doble, ambos experimentan problemas para modificar sus hábitos, debido a
+                    lo enraizados que están. Al mismo tiempo, nace una relación entre Rick y la actriz Sharon Tate, que
+                    fue víctima de la familia Manson en la matanza de 1969​​​</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters accion ">
+            <div class="carta">
+                <h2>Godzilla 2: el rey de los monstruos</h2>
+                <img class="pelicula" src="/images/godzilla 2.jpg" alt="">
+                <p>Las aventuras de unos criptzóologos de una agencia mientras tratan de enfrentarse a unos monstruos
+                    entre los que se encuentra el propio Godzilla. Entre todos intentarán frenar a estas criaturas que
+                    harán todo lo posible por sobrevivir.​​​</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters accion ">
+            <div class="carta">
+                <h2>Megalodon 2</h2>
+                <img class="pelicula" src="/images/meg 2.jpg" alt="">
+                <p> The Trench es una película de ciencia ficción y acción estadounidense, dirigida por Ben Wheatley,
+                    escrita por Jon Hoeber, Erich Hoeber y Dean Georgaris, basada en la novela Meg: la fosa de Steve
+                    Alten</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+
+        <div class="posters terror ">
+            <div class="carta">
+                <h2>SONRIE</h2>
+                <img class="pelicula" src="/images/sonrie.jpg" alt="">
+                <p> Tras presencia el dramático incidente sufrido por un paciente, la Dra. Cotter empieza a experimentar
+                    hechos aterradores sin explicación aparente. A medida que el horror se adueña de su vida, comprende
+                    que la respuesta está en su propio pasado.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>Lucifer</h2>
+                <img class="pelicula" src="/images/Lucifer.jpg" alt="">
+                <p> Harto del infierno, Lucifer abandona su trono en el averno y se marcha a Los Ángeles, donde empieza
+                    a trabajar como detective de homicidios.</p>
+                <button class="open-modal-button" data-movie="lucifer" id="openModalButton">Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modallucifer">
+            <div class="modal-content">
+                <h2>Lucifer</h2>
+                <img class="pelicula" src="/images/Lucifer.jpg" alt="">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X4bF_quwNtw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p> Harto del infierno, Lucifer abandona su trono en el averno y se marcha a Los Ángeles, donde empieza
+                    a trabajar como detective de homicidios.</p>
+              <button class="close-modal-button">Cerrar</button>
+            </div>
+          </div>
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>Riverdale</h2>
+                <img class="pelicula" src="/images/Riverdale.jpg" alt="">
+                <p> La localidad de Riverdale aún no se ha recuperado del trágico asesinato del chico de oro de la
+                    escuela, Jason Blossom. Ante lo ocurrido, Archie Andrews se replantea su futuro: dedicarse a la
+                    música en lugar de trabajar en el negocio familiar.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>DAHMER</h2>
+                <img class="pelicula" src="/images/Dahmer.jpg" alt="">
+                <p> La historia de uno de los asesinos en serie más conocidos de Estados Unidos, contada desde los
+                    puntos de vista de sus víctimas.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>Black Mirror</h2>
+                <img class="pelicula" src="/images/Black_Mirror.jpg" alt="">
+                <p>El lado oscuro de la era tecnológica en la que se vive: la paranoia de ser vigilados como en un
+                    panóptico, los usos terroristas de las nuevas herramientas y su relación con la experiencia
+                    cotidiana.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>YOU</h2>
+                <img class="pelicula" src="/images/YOU.jpg" alt="">
+                <p>Un hombre encantador y muy peligroso toma medidas extremas para introducirse en la vida de las
+                    mujeres de las que se enamora.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2> The Walking Dead
+                </h2>
+                <img class="pelicula" src="/images/the_walking_dead.jpg" alt="">
+                <p>Basado en la historieta escrita por Robert Kirkman, este drama crudo describe las vidas de un grupo
+                    de sobrevivientes que está siempre en movimiento en busca de un hogar seguro durante las semanas y
+                    meses de un apocalipsis zombi. </p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div class="posters series ">
+            <div class="carta">
+                <h2>Peaky Blinders</h2>
+                <img class="pelicula" src="/images/Peaky Blinders.jpg" alt="">
+                <p>Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas
+                    criminales en una nación agitada. En Birmingham, una pandilla de gánsters callejeros asciende hasta
+                    convertirse en los reyes de la clase obrera.</p>
+                <button>Ver Mas</button>
+            </div>
+        </div>
+
+        </div>
+
+    </div>    
+        
+          <footer>
+
+        <h3>Aprendices:</h3>
+
+        <h3>@Sergio_Riko</h3>
+        <h3>@Carlos David Sanchez</h3>
+        <h3>@Milton Parra Londoño</h3>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
